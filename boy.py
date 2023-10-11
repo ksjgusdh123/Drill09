@@ -101,7 +101,10 @@ class Run:
 class AutoRun:
     @staticmethod
     def enter(boy, e):
-        boy.dir, boy.action = 1, 1
+        if boy.action == 2:
+            boy.action, boy.dir = 0, -1
+        elif boy.action == 3:
+            boy.action, boy.dir = 1, 1
         boy.frame = 0
         boy.idle_start_time = get_time()
 
@@ -112,7 +115,12 @@ class AutoRun:
     @staticmethod
     def do(boy):
         boy.frame = (boy.frame + 1) % 8
+        if boy.x >= 700:
+            boy.action, boy.dir = 0, -1
+        elif boy.x <= 50:
+            boy.action, boy.dir = 1, 1
         boy.x += boy.dir * 5
+
         if get_time() - boy.idle_start_time > 5:
             boy.state_machine.handle_event(('TIME_OUT', 0))
         pass
