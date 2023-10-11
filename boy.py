@@ -109,7 +109,7 @@ class AutoRun:
         boy.idle_start_time = get_time()
 
     @staticmethod
-    def exit(boy, e):
+    def exit(boy, e): 
         pass
 
     @staticmethod

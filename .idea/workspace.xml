@@ -4,9 +4,8 @@
     <option name="autoReloadType" value="SELECTIVE" />
   </component>
   <component name="ChangeListManager">
-    <list default="true" id="e880b8b8-89ff-4954-b213-979d26991a7a" name="Changes" comment="slepp상태와 run상태에서 autorun상태로 못가도록 수정">
+    <list default="true" id="e880b8b8-89ff-4954-b213-979d26991a7a" name="Changes" comment="Drill09제출(2020112036정현도)">
       <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/boy.py" beforeDir="false" afterPath="$PROJECT_DIR$/boy.py" afterDir="false" />
     </list>
     <option name="SHOW_DIALOG" value="false" />
     <option name="HIGHLIGHT_CONFLICTS" value="true" />
@@ -189,6 +188,7 @@
     <MESSAGE value="벽에 가까워지면 이동방향을 전환하도록 AutoRun의 do함수 수정" />
     <MESSAGE value="소년이 움직이면 속도가 더 빠르게, 소년이 더 크게 되도록 만들었고 autorun이 종료하면 크기는 다시 원래대로 돌아온다." />
     <MESSAGE value="slepp상태와 run상태에서 autorun상태로 못가도록 수정" />
-    <option name="LAST_COMMIT_MESSAGE" value="slepp상태와 run상태에서 autorun상태로 못가도록 수정" />
+    <MESSAGE value="Drill09제출(2020112036정현도)" />
+    <option name="LAST_COMMIT_MESSAGE" value="Drill09제출(2020112036정현도)" />
   </component>
 </project>
