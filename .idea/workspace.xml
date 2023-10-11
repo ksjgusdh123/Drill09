@@ -4,7 +4,8 @@
     <option name="autoReloadType" value="SELECTIVE" />
   </component>
   <component name="ChangeListManager">
-    <list default="true" id="e880b8b8-89ff-4954-b213-979d26991a7a" name="Changes" comment="벽에 가까워지면 이동방향을 전환하도록 AutoRun의 do함수 수정">
+    <list default="true" id="e880b8b8-89ff-4954-b213-979d26991a7a" name="Changes" comment="slepp상태와 run상태에서 autorun상태로 못가도록 수정">
+      <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/boy.py" beforeDir="false" afterPath="$PROJECT_DIR$/boy.py" afterDir="false" />
     </list>
     <option name="SHOW_DIALOG" value="false" />
@@ -140,7 +141,23 @@
       <option name="project" value="LOCAL" />
       <updated>1697024087853</updated>
     </task>
-    <option name="localTasksCounter" value="4" />
+    <task id="LOCAL-00004" summary="소년이 움직이면 속도가 더 빠르게, 소년이 더 크게 되도록 만들었고 autorun이 종료하면 크기는 다시 원래대로 돌아온다.">
+      <option name="closed" value="true" />
+      <created>1697024653236</created>
+      <option name="number" value="00004" />
+      <option name="presentableId" value="LOCAL-00004" />
+      <option name="project" value="LOCAL" />
+      <updated>1697024653236</updated>
+    </task>
+    <task id="LOCAL-00005" summary="slepp상태와 run상태에서 autorun상태로 못가도록 수정">
+      <option name="closed" value="true" />
+      <created>1697024747899</created>
+      <option name="number" value="00005" />
+      <option name="presentableId" value="LOCAL-00005" />
+      <option name="project" value="LOCAL" />
+      <updated>1697024747899</updated>
+    </task>
+    <option name="localTasksCounter" value="6" />
     <servers />
   </component>
   <component name="Vcs.Log.Tabs.Properties">
@@ -170,6 +187,8 @@
     <MESSAGE value="a키를 누르면 소년이 오른쪽으로 움직이도록 구현" />
     <MESSAGE value="일정 시간이 흐른 후 idle상태로 돌아도록 추가" />
     <MESSAGE value="벽에 가까워지면 이동방향을 전환하도록 AutoRun의 do함수 수정" />
-    <option name="LAST_COMMIT_MESSAGE" value="벽에 가까워지면 이동방향을 전환하도록 AutoRun의 do함수 수정" />
+    <MESSAGE value="소년이 움직이면 속도가 더 빠르게, 소년이 더 크게 되도록 만들었고 autorun이 종료하면 크기는 다시 원래대로 돌아온다." />
+    <MESSAGE value="slepp상태와 run상태에서 autorun상태로 못가도록 수정" />
+    <option name="LAST_COMMIT_MESSAGE" value="slepp상태와 run상태에서 autorun상태로 못가도록 수정" />
   </component>
 </project>
