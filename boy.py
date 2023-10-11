@@ -119,6 +119,13 @@ class AutoRun:
             boy.action, boy.dir = 0, -1
         elif boy.x <= 50:
             boy.action, boy.dir = 1, 1
+
+        speed = get_time() - boy.idle_start_time + 1
+
+        if boy.dir >= 1:
+            boy.dir = 1 + speed
+        elif boy.dir <= -1:
+            boy.dir = -1 - speed
         boy.x += boy.dir * 5
 
         if get_time() - boy.idle_start_time > 5:
@@ -127,7 +134,8 @@ class AutoRun:
 
     @staticmethod
     def draw(boy):
-        boy.image.clip_draw(boy.frame * 100, boy.action * 100, 100, 100, boy.x, boy.y)
+        size = get_time() - boy.idle_start_time + 1
+        boy.image.clip_draw(boy.frame * 100, boy.action * 100, 100, 100, boy.x, boy.y, 100 + size * 10, 100 + size * 10)
         pass
 
 
